@@ -9,5 +9,8 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://webcustomizer.github.io/weather-app/"
+  "homepage": "https://webcustomizer.github.io/weather-app/",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }

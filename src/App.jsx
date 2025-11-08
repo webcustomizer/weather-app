@@ -5,7 +5,7 @@ function App() {
   const [input, setInput] = useState("");
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
-  const URL = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`;
+  const URL = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input}&aqi=no`;
   const searchHandle = async () => {
     if (input.trim() !== "") {
       try {
