@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 function App() {
   const apiKey = "d6b4c92111324d9e905163859250811";
